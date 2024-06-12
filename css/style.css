@@ -1,0 +1,95 @@
+.bg-body-navy{
+    background-color: #00204a;
+}
+.navbar{
+    --bs-navbar-brand-color: white;
+}
+.nav-link{
+    --bs-navbar-color: white;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    color: var(--bs-nav-link-color);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    --bs-navbar-active-color:white;
+    color: var(--bs-navbar-active-color);
+}
+.navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-nav:hover{
+    --bs-nav-link-hover-color:#00bbf0;
+    transition: all 2s;
+    
+   
+}
+.nav-item:hover{
+  border:solid 2px blueviolet;
+  
+  
+}
+.content{
+    background-image:linear-gradient(rgba(19, 108, 150, 0.604),rgba(54, 35, 203, 0.429)) ,url(../R.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+
+
+}
+.nav-link{
+    padding: 0px;
+}
+.form-control{
+    margin-left: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    --bs-body-bg: transpatent;
+    background-color: var(--bs-body-bg);
+}
+.vh-30{
+    height: 30vh;
+}
+.icon:hover{
+    color:blue;
+}
+.form-control::placeholder{
+    color:white;
+}
+.vh-40{
+    height: 50vh;
+}
+.firstCard{
+    background-color: rgba(255, 255, 255, 0.219);
+    border: 1px solid   #00bbf0;
+   backdrop-filter: blur(2px);
+}
+.text-color{
+    color:  #f5f8fb;
+}
+.temp{
+    font-size: 70px;
+}
+.fa-facebook ,.fa-google , .fa-twitter  ,.fa-pinterest{
+    color:#20b6df;
+    margin: 10px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+.fa-facebook:hover,
+.fa-google:hover,
+.fa-twitter:hover,
+.fa-pinterest:hover {
+    color: white;
+    background-color: #20b6df;
+    border-radius: 100%;
+    transform: scale(1.5); 
+}
+.fa-facebook{
+    padding: 8px;
+}
+.span-color{
+    color:#3b428a;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-5.3.3-dist/css/bootstrap-grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <nav class="navbar bg-body-navy m-auto">
+        <div class="container p-4">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top text-white h1 fs-5 ">
+           Weather
+   
+          </a>
+
+          <nav class="navbar navbar-expand-lg bg-body-navy m-auto">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse ms-5" id="navbarNav">
+                <ul class="navbar-nav ms-5 text-center p-0">
+                  <li class="nav-item rounded-5 text-center">
+                    <a class="nav-link px-3  m-1" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item  rounded-5">
+                    <a class="nav-link px-3 m-1" href="#">News</a>
+                  </li>
+                  <li class="nav-item  rounded-5">
+                    <a class="nav-link px-3 m-1" href="#">Live cameras</a>
+                  </li>
+                  <li class="nav-item  rounded-5">
+                    <a class="nav-link px-3 m-1" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item  rounded-5">
+                    <a class="nav-link px-3 m-1" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </nav>
+
+<div class="content">
+    <div class="w-100 d-flex justify-content-center align-items-sm-start p-5">
+   
+          <form class="input-group input-group-lg w-75">
+            <input type="text" id="search" class="form-control my-5 rounded-5" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Find your location...">
+     
+       </form>
+     
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4" id="forecast"></div>
+        <div class="col-lg-4" id="first-forecast"></div>
+        <div class="col-lg-4" id="second-forecast"></div>
+    </div>
+</div>
+
+<div class="footer container-fluid bg-body-navy">
+    <div class="input-group input-group-lg w-75 mx-5 container-fluid d-flex justify-content-center">
+        <input type="text" class="form-control my-5 rounded-5 text-white" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your email to subscribe...">
+        <button type="button" class="btn btn-outline-info my-5 rounded-5">Subscribe</button>
+        
+        <div class="p-5">
+          
+            <i class="fa fa-facebook  fs-3  "></i>
+            <i class="fa fa-google  fs-3 "></i>
+            <i class="fa fa-twitter  fs-3 "></i>
+            <i class="fa fa-pinterest  fs-3 "></i>
+        </div>
+    </div>
+    <div class="copyRight container-fluid p-2">
+        <p class="text-white px-5 mx-5 fs-6">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
